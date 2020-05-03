@@ -1,0 +1,85 @@
+.logo {
+    height: 15vh;
+
+    background: url(../logo/mighty-masks-black-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 480px) {
+.responsive .logo a, .responsive .logo img {
+    height: 65px !important;
+    top: 4px;
+}
+}
+
+.hero {
+    height: 50vh;
+
+
+    background: url(../images/hero-image.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.medical-masks {
+    height: 20vh;
+
+
+    background: url(../images/medical-masks.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.factory-worker {
+    height: 20vh;
+
+
+    background: url(../images/factory-worker.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.fashion-masks {
+    height: 20vh;
+
+
+    background: url(../images/fashion-masks.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
