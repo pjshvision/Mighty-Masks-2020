@@ -1,25 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Images*/
+
 .logo {
-    height: 15vh;
-
-    background: url(../logo/mighty-masks-black-logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-@media only screen and (max-width: 480px) {
-.responsive .logo a, .responsive .logo img {
-    height: 65px !important;
-    top: 4px;
-}
-}
-
-.hero {
-    height: 50vh;
-
-
-    background: url(../images/hero-image.jpg);
+    height: 4vh;
+    width: 150px;
+    
+    background: url(../logo/alt-mighty-masks-logo.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,11 +20,26 @@
 }
 
 
+.hero {
+    height: 50vh;
+
+    background: url(../images/shutterstock/hero-image.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .medical-masks {
     height: 20vh;
 
-
-    background: url(../images/medical-masks.jpg);
+    background: url(../images/shutterstock/medical-masks.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,8 +55,7 @@
 .factory-worker {
     height: 20vh;
 
-
-    background: url(../images/factory-worker.jpg);
+    background: url(../images/shutterstock/factory-worker.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,8 +71,7 @@
 .fashion-masks {
     height: 20vh;
 
-
-    background: url(../images/fashion-masks.jpg);
+    background: url(../images/shutterstock/fashion-masks.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -82,4 +82,111 @@
     justify-content: center;
 
     position: relative;
+}
+
+.germanfedgovt {
+    height: 10vh;
+
+    background: url(../images/unsplash/angelo-abear-RHyJdCu9YbU-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.medicare {
+    height: 10vh;
+
+    background: url(../images/unsplash/obi-onyeador-T5TojXFNnjk-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.nhs {
+    height: 10vh;
+
+    background: url(../images/unsplash/edward-howell--GKUjUKOvcQ-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.hm {
+    height: 10vh;
+
+    background: url(../images/unsplash/sei-kakinoki-hA-ZnkS2Nwc-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.zara {
+    height: 10vh;
+
+    background: url(../images/unsplash/highlight-id-DbOdCSoefsg-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.primark {
+    height: 10vh;
+
+    background: url(../images/unsplash/isaac-owens-gAPUrhvVmKs-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/*--------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
 }
