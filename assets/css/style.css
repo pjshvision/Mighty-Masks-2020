@@ -181,7 +181,114 @@
     position: relative;
 }
 
-/*--------------------------------------------Heading*/
+.hugeinflux {
+    height: 10vh;
+
+    background: url(../images/unsplash/macau-photo-agency-O8KXb87sTZs-unsplash.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.fourmillionmasks {
+    height: 10vh;
+
+    background: url(../images/unsplash/vera-davidova-YHZIGRwk764-unsplash.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.factory {
+    height: 30vh;
+
+    background: url(../images/shutterstock/factory.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.emergency-workers {
+    height: 30vh;
+
+    background: url(../images/shutterstock/emergency-workers.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.backpacker {
+    height: 30vh;
+
+    background: url(../images/shutterstock/idealised-customer.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.together {
+    height: 10vh;
+
+    background: url(../images/unsplash/william-lu-YMgtt_cYT21-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/*--------------------------------------------Color*/
+
+.update {
+    font-family: "Roboto", sans-serif
+    font-size: 16;
+    font-weight: 100;
+    color: #fff;
+}
+
+
+/*--------------------------------------------Header*/
 
 header {
     margin: 0;
