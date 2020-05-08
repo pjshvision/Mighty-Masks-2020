@@ -2,10 +2,29 @@
 
 /*--------------------------------------------Images*/
 
-.logo {
-    height: 4vh;
-    width: 150px;
+.img {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.logo {
+    height: 6vh;
     background: url(../logo/alt-mighty-masks-logo.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
