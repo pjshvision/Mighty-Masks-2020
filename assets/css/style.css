@@ -1,29 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Karla:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Karla:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 
-/*--------------------------------------------Images*/
+/*--------------------------------------------Body*/
 
-.img {
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+*{
+    margin:0;
+    padding:0;
+    border:0;
 }
 
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
+body {
+    font-family: "Karla", "Montserrat";
 }
 
-.logo {
+#menu {
+    font-size: 100%;
+    list-style-type: none;
+    margin:0;
+}
+
+#logo {
     height: 6vh;
     background: url(../logo/alt-mighty-masks-logo.png);
     -webkit-background-size: cover;
@@ -38,22 +33,25 @@
     position: relative;
 }
 
-
-.hero {
-    height: 50vh;
-
-    background: url(../images/shutterstock/Hero%20Image.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+#menu, #logo {
+    line-height: 3rem;
 }
+
+#menu a:hover {
+     color:lightcoral;
+}
+
+/*--------------------------------------------Hero-Image*/
+
+#hero-image {
+    height: 60vh;
+    width: 100%;
+    background: url(../images/shutterstock/Hero%20Image.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
+/*--------------------------------------------Brand-Images*/
 
 .medical-masks {
     height: 20vh;
@@ -104,7 +102,7 @@
 }
 
 .germanfedgovt {
-    height: 10vh;
+    height: 15vh;
 
     background: url(../images/unsplash/angelo-abear-RHyJdCu9YbU-unsplash.jpg);
     -webkit-background-size: cover;
@@ -120,7 +118,7 @@
 }
 
 .medicare {
-    height: 10vh;
+    height: 15vh;
 
     background: url(../images/unsplash/obi-onyeador-T5TojXFNnjk-unsplash.jpg);
     -webkit-background-size: cover;
@@ -137,7 +135,7 @@
 
 
 .nhs {
-    height: 10vh;
+    height: 15vh;
 
     background: url(../images/unsplash/edward-howell--GKUjUKOvcQ-unsplash.jpg);
     -webkit-background-size: cover;
@@ -153,7 +151,7 @@
 }
 
 .hm {
-    height: 10vh;
+    height: 15vh;
 
     background: url(../images/unsplash/sei-kakinoki-hA-ZnkS2Nwc-unsplash.jpg);
     -webkit-background-size: cover;
@@ -169,7 +167,7 @@
 }
 
 .zara {
-    height: 10vh;
+    height: 15h;
 
     background: url(../images/unsplash/highlight-id-DbOdCSoefsg-unsplash.jpg);
     -webkit-background-size: cover;
@@ -185,7 +183,7 @@
 }
 
 .primark {
-    height: 10vh;
+    height: 15vh;
 
     background: url(../images/unsplash/isaac-owens-gAPUrhvVmKs-unsplash.jpg);
     -webkit-background-size: cover;
@@ -199,6 +197,8 @@
 
     position: relative;
 }
+
+/*--------------------------------------------Banner-Images*/
 
 .hugeinflux {
     height: 10vh;
@@ -300,12 +300,18 @@
 /*--------------------------------------------Color*/
 
 .update {
-    font-family: "Roboto", sans-serif
-    font-size: 16;
-    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    font-size: 80%;
+    font-weight: 500;
     color: #fff;
 }
 
+#call-out {
+    font-family: "Montserrat", sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+    color: #f8f8f8;
+}
 
 /*--------------------------------------------Header*/
 
