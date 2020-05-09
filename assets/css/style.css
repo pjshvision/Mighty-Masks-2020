@@ -2,6 +2,13 @@
 
 /*--------------------------------------------Body*/
 
+.site-wide-alert {
+    margin: 0 !important;
+    padding: 1 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 .col{
     margin:0;
     padding:0;
@@ -33,10 +40,12 @@ body {
     justify-content: center;
 
     position: relative;
+    margin-bottom:3%;
+    margin-top:0%;
 }
 
 #menu, #logo {
-    line-height: 3rem;
+    line-height: 3.5rem;
 }
 
 #menu a:hover {
@@ -408,19 +417,21 @@ footer{
     }
 
 .social-media {
-    
     text-align: center;
 }
 
 .social-media li {
     display: inline;
+    padding:1%;
 }
 
 .social-media i {
     font-size: 140%;
     margin: 1%;
-    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     color: #777777;
+    text-align: center;
 }
 
 #menu2 {
@@ -430,7 +441,6 @@ footer{
     list-style-type: none;
     margin:0;
     text-transform:none;
-    display: inline-block;
 }
 
 #menu2 a:hover {
@@ -445,8 +455,8 @@ footer{
  } 
 
 #logo2 {
-    max-width:100%;
-    height:auto;
+    max-width:6em;
+    height:2em;
     background: url(../logo/alt-mighty-masks-logo.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -459,3 +469,14 @@ footer{
 
     position: relative;
 }
+
+#logo-copy-shopify {
+    color: #777777; 
+    font-size: 80%;
+    align-items: center;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-transform:none;
+}
+
