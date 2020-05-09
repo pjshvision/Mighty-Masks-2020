@@ -2,7 +2,7 @@
 
 /*--------------------------------------------Body*/
 
-*{
+.col{
     margin:0;
     padding:0;
     border:0;
@@ -16,6 +16,7 @@ body {
     font-size: 100%;
     list-style-type: none;
     margin:0;
+    text-transform: uppercase;
 }
 
 #logo {
@@ -41,6 +42,26 @@ body {
      color:lightcoral;
 }
 
+ nav a {
+     text-decoration: none;
+     font-size: 0.9rem;
+     letter-spacing: 1px;
+     color: #777777;
+     font-weight: 600;
+ }  
+
+hr {
+    width: 80%;
+    height: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-width: 1px;
+    border-color: #777777;
+    border-style:double;
+}
+
 /*--------------------------------------------Hero-Image*/
 
 #hero-image {
@@ -53,8 +74,112 @@ body {
 
 /*--------------------------------------------Brand-Images*/
 
-.medical-masks {
+.germanfedgovt {
     height: 20vh;
+
+    background: url(../images/unsplash/angelo-abear-RHyJdCu9YbU-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-radius: 50%;
+}
+
+.medicare {
+    height: 20vh;
+
+    background: url(../images/unsplash/obi-onyeador-T5TojXFNnjk-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-radius: 50%;
+}
+
+.nhs {
+    height: 20vh;
+
+    background: url(../images/unsplash/edward-howell--GKUjUKOvcQ-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-radius: 50%;
+}
+
+.hm {
+    height: 20vh;
+
+    background: url(../images/unsplash/sei-kakinoki-hA-ZnkS2Nwc-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-radius: 50%;
+}
+
+.zara {
+    height: 20vh;
+
+    background: url(../images/unsplash/highlight-id-DbOdCSoefsg-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-radius: 50%;
+}
+
+.primark {
+    height: 20vh;
+
+    background: url(../images/unsplash/isaac-owens-gAPUrhvVmKs-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-radius: 50%;
+}
+
+/*--------------------------------------------Product-Images*/
+
+#medical-masks {
+    height: 30vh;
 
     background: url(../images/shutterstock/Medical%20Masks.jpg);
     -webkit-background-size: cover;
@@ -69,8 +194,8 @@ body {
     position: relative;
 }
 
-.factory-worker {
-    height: 20vh;
+#N95-masks {
+    height: 30vh;
 
     background: url(../images/shutterstock/Factory%20Worker.jpg);
     -webkit-background-size: cover;
@@ -85,8 +210,8 @@ body {
     position: relative;
 }
 
-.fashion-masks {
-    height: 20vh;
+#fashion-masks {
+    height: 30vh;
 
     background: url(../images/shutterstock/Fashion%20Masks.jpg);
     -webkit-background-size: cover;
@@ -101,106 +226,17 @@ body {
     position: relative;
 }
 
-.germanfedgovt {
-    height: 15vh;
+/*--------------------------------------------Order-influx-banner-images*/
 
-    background: url(../images/unsplash/angelo-abear-RHyJdCu9YbU-unsplash.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+.update {
+    font-family: "Karla";
+    font-size: 90%;
+    font-weight: 500;
+    color: #fff;
+    line-height:2em;
 }
 
-.medicare {
-    height: 15vh;
-
-    background: url(../images/unsplash/obi-onyeador-T5TojXFNnjk-unsplash.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-
-.nhs {
-    height: 15vh;
-
-    background: url(../images/unsplash/edward-howell--GKUjUKOvcQ-unsplash.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-.hm {
-    height: 15vh;
-
-    background: url(../images/unsplash/sei-kakinoki-hA-ZnkS2Nwc-unsplash.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-.zara {
-    height: 15h;
-
-    background: url(../images/unsplash/highlight-id-DbOdCSoefsg-unsplash.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-.primark {
-    height: 15vh;
-
-    background: url(../images/unsplash/isaac-owens-gAPUrhvVmKs-unsplash.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-/*--------------------------------------------Banner-Images*/
-
-.hugeinflux {
+.orderinflux {
     height: 10vh;
 
     background: url(../images/unsplash/macau-photo-agency-O8KXb87sTZs-unsplash.jpg); 
@@ -216,6 +252,31 @@ body {
     position: relative;
 }
 
+/*--------------------------------------------Quotes*/
+
+*/
+.quote{
+    font-family: "Roboto";
+}
+
+.blockquote-custom {
+  position: relative;
+  font-size: 90%;
+}
+
+.blockquote-custom-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -12.5px;
+  left: 25px;
+}
+
+/*--------------------------------------------4-MillionMasks-Banner-Image*/
 
 .fourmillionmasks {
     height: 10vh;
@@ -298,13 +359,6 @@ body {
 }
 
 /*--------------------------------------------Color*/
-
-.update {
-    font-family: "Montserrat", sans-serif;
-    font-size: 80%;
-    font-weight: 500;
-    color: #fff;
-}
 
 #call-out {
     font-family: "Montserrat", sans-serif;
