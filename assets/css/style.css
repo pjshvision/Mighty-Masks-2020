@@ -13,6 +13,7 @@ body {
 }
 
 #menu {
+    padding:0;
     font-size: 100%;
     list-style-type: none;
     margin:0;
@@ -229,16 +230,16 @@ hr {
 /*--------------------------------------------Order-influx-banner-images*/
 
 .update {
-    font-family: "Karla";
-    font-size: 90%;
+    font-family: "Montserrat";
+    font-size: 100%;
     font-weight: 500;
     color: #fff;
-    line-height:2em;
+    line-height:1.8em;
 }
 
 .orderinflux {
     height: 10vh;
-
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     background: url(../images/unsplash/macau-photo-agency-O8KXb87sTZs-unsplash.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -280,7 +281,7 @@ hr {
 
 .fourmillionmasks {
     height: 10vh;
-
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     background: url(../images/unsplash/vera-davidova-YHZIGRwk764-unsplash.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -367,6 +368,12 @@ hr {
     color: #f8f8f8;
 }
 
+#stay-strong {
+    color: #777777;
+    font-size: 100%;
+    font-weight: 400;
+}
+
 /*--------------------------------------------Header*/
 
 header {
@@ -375,4 +382,80 @@ header {
 
 .heading {
     margin-left: 50px;
+}
+
+/*--------------------------------------------Footer*/
+
+form {
+    display: inline;
+    text-align: center;
+}
+
+#call-to-action {
+    font-family: "Montserrat";
+    color: lightcoral;
+    font-size: 90%;
+    font-weight: 500;
+
+}
+
+footer{
+    height: 75px;
+}
+
+.social-media i {
+        font-size: 80%;
+    }
+
+.social-media {
+    
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 140%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
+
+#menu2 {
+    color: #777777; 
+    font-size: 80%;
+    align-items: center;
+    list-style-type: none;
+    margin:0;
+    text-transform:none;
+    display: inline-block;
+}
+
+#menu2 a:hover {
+     color:lightcoral;
+}
+
+ #menu2 a {
+     text-decoration: none;
+     font-size: 0.8rem;
+     color: #777777;
+     font-weight: 400;
+ } 
+
+#logo2 {
+    max-width:100%;
+    height:auto;
+    background: url(../logo/alt-mighty-masks-logo.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
