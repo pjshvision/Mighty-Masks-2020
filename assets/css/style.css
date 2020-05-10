@@ -84,14 +84,11 @@ hr {
 
 /*--------------------------------------------Hero-Image*/
 
- .hero-outer
-{
-  height: 60vh;
-  width: 100%;
-  overflow: hidden;
-}
-
 #hero-image {
+    margin-left:0;
+    margin-right;0;
+    padding-left:0;
+    padding-right:0;
     height: 60vh;
     width: 100%;
     background: url(../images/shutterstock/Hero%20Image.jpg) no-repeat center center;
@@ -387,6 +384,32 @@ hr {
 }
 
 /*--------------------------------------------Our-values-panel-images*/
+
+.square {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.inner-content {
+    text-align: center;
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(224, 156, 156, 0.15)
+}
+
+.clean-content {
+    text-align: center;
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(249,249,249,1)
+}
 
 #ethics {
     width: 100%;
