@@ -7,6 +7,8 @@
     padding: 1 !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    font-family: "Montserrat" !important;
+    font-size: 70% !important;
 }
 
 #menu {
@@ -50,6 +52,11 @@
      font-weight: 600;
  }  
 
+.top-border {
+    height: 4vh;
+    background-color: rgba(103, 128, 159, .2);
+}
+
 /*--------------------------------------------Body*/
 
 body {
@@ -72,6 +79,7 @@ hr {
     margin:0;
     padding:0;
     border:0;
+    align-self: center;
 }
 
 /*--------------------------------------------Hero-Image*/
@@ -90,6 +98,15 @@ hr {
     background-size: cover;
     background-position: center;
 }
+
+#hero-image-values {
+    height: 60vh;
+    width: 100%;
+    background: url(../images/unsplash/marilia-castelli-uJVKkdUx0dA-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
 
 /*--------------------------------------------Brand-Images*/
 
@@ -369,6 +386,96 @@ hr {
     position: relative;
 }
 
+/*--------------------------------------------Our-values-panel-images*/
+
+#ethics {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    background-color: #2980b9;
+
+    background: url(../images/unsplash/yue-iris-JojyyiO7ydw-unsplash.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#energy-usage {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    background-color: #2980b9;
+
+
+    background: url(../images/shutterstock/Energy%20Usage.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#health-safety {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    background-color: #2980b9;
+
+    background: url(../images/shutterstock/Health%20%26%20Safety.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#certification {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    background-color: #2980b9;
+
+    background: url(../images/shutterstock/Certification.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#community {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    background-color: #2980b9;
+
+    background: url(../images/shutterstock/Community.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 /*--------------------------------------------Color*/
 
 #call-out {
@@ -411,6 +518,10 @@ form {
 
 footer{
     height: 75px;
+}
+
+.social-media i:hover {
+     color:lightcoral;
 }
 
 .social-media i {
@@ -472,4 +583,39 @@ footer{
     margin-right: auto;
 
     position: relative;
+}
+
+#footer-end {
+    color: #777777;
+    font-size: 80%;
+    align-items: center;
+    list-style-type: none;
+    margin-left:3px;
+    margin-right:3px;
+    text-transform:none;
+    margin-bottom:0;
+}
+
+ #footer-end a {
+     color: #777777;
+     text-decoration: none;
+     font-size: 0.8rem;
+     font-weight: 400;
+     list-style-type: none;
+ } 
+
+#shopify {
+    height: 0.9em;
+    width: 14em;
+    background: url(../logo/shopify.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    align-items: right;
+    justify-content: right;
+    float: right;
+    margin-left: auto;
+    margin-right: 1em;
 }
