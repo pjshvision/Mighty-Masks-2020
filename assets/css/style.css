@@ -385,11 +385,27 @@ hr {
 
 /*--------------------------------------------Our-mission-panel-images*/
 
+#standard-face-masks {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+
+    background: url(../images/unsplash/macau-photo-agency-O8KXb87sTZs-unsplash.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 #company-founder {
     width: 100%;
     padding-bottom: 100%;
     position: relative;
-    background-color: #2980b9;
 
     background: url(../images/unsplash/juan-encalada-WC7KIHo13Fc-unsplash.jpg);  
     -webkit-background-size: cover;
@@ -406,7 +422,6 @@ hr {
     width: 100%;
     padding-bottom: 100%;
     position: relative;
-    background-color: #2980b9;
 
     background: url(../images/unsplash/yiranding-Z3lCF8lhji8-unsplash.jpg);  
     -webkit-background-size: cover;
@@ -421,51 +436,9 @@ hr {
 
 /* ----------------------------------------Our-mission timeline */
 
-.history-heading {
-    color: #777777;
-    margin-bottom: 50px;
-}
 
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #777777;
-    border-left: 1px solid;
-}
 
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
 
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Karla", "Montserrat", !important;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #777777;
-}
-
-.history-items {
-    margin-bottom: 30px;
-}
 
 /*--------------------------------------------Our-values-responsive-squares*/
 
