@@ -703,3 +703,115 @@ footer{
     margin-left: auto;
     margin-right: 1em;
 }
+
+/*--------------------------------------------MightyMasksMap*/
+ 
+iframe {
+    height: 19.4em; 
+    align-items: flex-end;
+    display: flex;
+}
+ 
+.outlined {
+    height: 100%;
+    border: 1px solid rgba(103, 128, 159, .2);
+}
+
+/*--------------------------------------------ContactForm*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid rgba(103, 128, 159, .2);
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 3px; /* Add a top margin */
+  margin-bottom: 8px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: lightcoral;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: lightcoral;
+}
+
+/*--------------------------------------------Get-In-Touch-Images*/
+
+#shisizang {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+
+
+    background: url(../images/unsplash/junho-chak-aDF2WcvGfkU-unsplash%20v2.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fish-and-chips {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+
+
+    background: url(../images/unsplash/edward-howell-Jbf9nNe_qaE-unsplash%20v2.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FAQ {
+    text-align: center;
+    height: 100vh;
+    background-color: rgba(224, 156, 156, 0.15);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    font-family: "Karla";
+    font-size: 100%;
+    font-weight: 500;
+    line-height:2em;
+}
+
+
+#free-swatch {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+
+
+    background: url(../images/unsplash/bara-buri-1NPbmHxl_VE-unsplash.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
