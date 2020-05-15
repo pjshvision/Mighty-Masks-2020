@@ -1,39 +1,79 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+MIGHTY MASKS
+This project showcases a fictious supplier (Mighty Masks) based around Shanghai seeking orders from big retailers and government agencies during the current pandemic.
 
-Welcome pjshvision,
+I work in the fashion industry and believe suppliers could stand to benefit from better standards of presentation and communication that emphasises quality of product and a partner that can be trusted to deliver.  
+In my regular job I negotiate and engage with suppliers based in The East on behalf of a Western company - I thought would offer an excellent challenge to take the opposite point of view.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+UX
+My UX is designed to appeal to the archetypal buyer or procurement manager. They are visually minded (wanting to see product and usage) but also cautious and keen to mitigate against risk. To win orders the team at Mighty Masks will need to make a positive impression, capture attention and entice the visitor into providing contact information which can later be followed up.
 
-## Gitpod Reminders
+As a buyer or procurement type in the market for fashion or medical masks, I most want to understand what product is offered, how it is made and by whom, so that I can place orders for in demand stock with confidence. I am very wary of potential product quality and reputational issues.
+I tried to model Mighty Masks on number of presentation ideas I came across when researching various supplier & online retailer websites. I sought to blend the factual informative style of the average supplier and the impressive presentation style the online retailer.
+I've added my research & inspriration as a PDF.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Based on my initial research I then created a wireframes mock-up. This has been added too as a PDF.
 
-`python3 -m http.server`
+Features
+The project is divided into 5 sections with a number of features.
 
-A blue button should appear to click: *Make Public*,
+1. Home Page
+Allows visitors to quickly evaluate MightyMasks product and reputation, offers a sign up link and form to subscribe to a newsletter. Encourages progression to "Get In Touch" page through hyperlinks.
 
-Another blue button should appear to click: *Open Browser*.
+2. Product Page
+Allows visitors to quickly evaluate MightyMasks product and reputation, offers a sign up link. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+3. Our Mission Page
+Allows visitors to quickly evaluate MightyMasks product and reputation, offers a sign up link. 
 
-A blue button should appear to click: *Make Public*,
+4. Our Values Page
+Allows visitors to quickly evaluate MightyMasks product and reputation, offers a sign up link. 
 
-Another blue button should appear to click: *Open Browser*.
+5. Get In Touch Page
+Allows visitors to quickly evaluate MightyMasks product and reputation, offers a sign up link. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Features Left to Implement : 
+Chat feature on the Home Page
+Product carousel on the product page with options for colour and fabric selection.
 
-## Updates Since The Instructional Video
+Technologies Used : GitHub, GitPod
+Languages : HTML, CSS
+Tools :
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+JQuery
+The project uses JQuery to simplify DOM manipulation.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Testing
+I noticed speed load times were slow in Chrome Developer Tools. I initially resized all images from 5000KB to 1000-1500KB. Load time was still over 2s+ so I resized images a second time to 500KB or lower.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Contact form:
+Go to the "Contact Us" page
+Try to submit the empty form and verify that an error message about the required fields appears
+Try to submit the form with an invalid email address and verify that a relevant error message appears
+Try to submit the form with all inputs valid and verify that a success message appears.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
---------
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-Happy coding!
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+Deployment
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+
+Different values for environment variables (Heroku Config Vars)?
+Different configuration files?
+Separate git branch?
+In addition, if it is not obvious, you should also describe how to run your code locally.
+
+Credits
+Content
+The text for section Y was copied from the Wikipedia article Z
+Media
+The photos used in this site were obtained from ...
+Acknowledgements
+I received inspiration for this project from X
