@@ -26,7 +26,7 @@
 }
 
 .header {
-  background: tomato;
+  background:  rgba(103, 128, 159, .2);
 }
 
 .footer {
@@ -56,17 +56,18 @@ img {max-width:100%; height:auto;
 }
 
 #mighty-masks-logo {
-    height: 8vh;
-    width: 100%;
     background: url(../logo/alt-mighty-masks-logo.png);
+    height: 6vh;
+    max-width: 12em;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
+
+    position: relative;
 }
 
 
@@ -102,6 +103,7 @@ img {max-width:100%; height:auto;
 }
 
 .aside {
+    height:6vh;
     padding:0;
     font-size: 100%;
     list-style-type: none;
@@ -120,6 +122,7 @@ img {max-width:100%; height:auto;
      color: #777777;
      font-weight: 600;
  }  
+
 
 .top-border {
     height: 4vh;
@@ -199,28 +202,49 @@ hr {
     align-self: center;
 }
 
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    flex-flow: row-warp;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+/*--------------------------------------------Code attribution Travis Horn [(https://codepen.io/travishorn/pen/bzXEjd)] */
+.card {
+  color: white;
+  height: 20vh;
 }
 
-.flex-item {
-    background: Tomato;
-    padding: 5px;
-    width: 200px;
-    height: 150px;
-    margin-top: 10px;
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
+.cards {
+  max-width: 100em;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  align-items: center;
+  justify-content: center;
+  
+  position: relative;
+  border-radius: 50%;
 }
+
+/* Small screen 1 column */
+@media (min-width: 24em) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Med screen 3 columns */
+@media (min-width: 46.8em) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Large screen 3 columns */
+@media (min-width: 50em) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* XL screen 6 columns */
+@media (min-width: 73em) {
+  .cards { grid-template-columns: repeat(6, 1fr); }
+}
+
 
 /*--------------------------------------------Hero-Image*/
 
@@ -247,106 +271,62 @@ hr {
 
 /*--------------------------------------------Brand-Images*/
 
-.germanfedgovt {
-    height: 20vh;
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    position: relative;
+    border-radius: 50%;
+}
+
+.germanfedgovt {
     background: url(../images/unsplash/angelo-abear-RHyJdCu9YbU-unsplash.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-    border-radius: 50%;
 }
 
 .medicare {
-    height: 20vh;
-
     background: url(../images/unsplash/obi-onyeador-T5TojXFNnjk-unsplash.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    position: relative;
-    border-radius: 50%;
 }
 
 .nhs {
-    height: 20vh;
-
     background: url(../images/unsplash/edward-howell--GKUjUKOvcQ-unsplash.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-    border-radius: 50%;
 }
 
 .hm {
-    height: 20vh;
-
     background: url(../images/unsplash/sei-kakinoki-hA-ZnkS2Nwc-unsplash.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-    border-radius: 50%;
 }
 
 .zara {
-    height: 20vh;
-
     background: url(../images/unsplash/highlight-id-DbOdCSoefsg-unsplash.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-    border-radius: 50%;
 }
 
 .primark {
-    height: 20vh;
-
     background: url(../images/unsplash/isaac-owens-gAPUrhvVmKs-unsplash.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-    border-radius: 50%;
 }
 
 /*--------------------------------------------Product-Images*/
