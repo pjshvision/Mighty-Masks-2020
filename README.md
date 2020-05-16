@@ -2,13 +2,16 @@
 This project showcases a fictious supplier (Mighty Masks) based around Shanghai seeking orders from big retailers and government agencies during the current pandemic.
 
 I work in the fashion industry and believe suppliers could stand to benefit from better standards of presentation and communication that emphasises quality of product and a partner that can be trusted to deliver.  
+
 In my regular job I negotiate and engage with suppliers based in The East on behalf of a Western company - I thought would offer an excellent challenge to take the opposite point of view in the business relationship
 
 ## UX ##
 My UX is designed to appeal to the archetypal buyer or procurement manager. They are visually minded (wanting to see product and usage) but also cautious and keen to mitigate against risk. To win orders the team at Mighty Masks will need to make a positive impression, capture attention and entice the visitor into providing contact information which can later be followed up.
 
 As a buyer or procurement type in the market for fashion or medical masks, I most want to understand what product is offered, how it is made and by whom, so that I can place orders for in demand stock with confidence. I am very wary of potential product quality and reputational issues.
+
 I tried to model Mighty Masks on number of presentation ideas I came across when researching various supplier & online retailer websites. I sought to blend the factual informative style of the average supplier and the impressive presentation style the online retailer.
+
 I've added my research & inspriration as a PDF (../assets/research-inspiration/Mighty%20Masks%20initial%20research.pdf)
 
 Based on my initial research I then created a wireframes mock-up (../assets/wireframes/Mighty%20Masks%202020.pdf). 
@@ -18,7 +21,9 @@ The project is divided into 5 pages with a number of features.
 
 **1. Home Page**
 Allows visitors to quickly evaluate MightyMasks product and reputation. 
+
 Features include a navalert, header navigation links, a Hero Image, product panels that link to product page, customer quotes, a banner, a sign up link and form to subscribe to a newsletter, footer navigation links and social media icons that link to social media presence. 
+
 Encourages progression to "Get In Touch" page through modal and hyperlinks.
 
 **2. Product Page**
@@ -26,15 +31,19 @@ TBC
 
 **3. Our Mission Pages**
 Gives a background to company and founder behind it. 
+
 Features include a border instead of a navalert, timeline on top of standard header and footer features.
 
 **4. Our Values Page**
 This showcases the ethical and responsible side of the business, a cornerstone in any supplier-retailer/govt relationship today. 
+
 Features include panelled squares giving a nice visual impact alongside information.
 
 **5. Get In Touch Page**
 The key page aimed at solidifying a potential new relationship based off initial interest. Want to make it possible to schedule in meetings and follow ups.
+
 All pages link to this page, a central part of my design.
+
 Features include a contact form, contact information, a Google Maps location of the Mighty Masks Head Office, a FAQ section, and a Free Swatch offer.
 
 #### Features Left to Implement : ####
@@ -54,7 +63,9 @@ The project uses JQuery to simplify DOM manipulation.
 
 #### Testing ####
 I noticed speed load times were slow in Chrome Developer Tools. I initially resized all images from 5000KB to 1000-1500KB. 
+
 Load time was still over 2s+ so I resized images a second time to 500KB or lower.
+
 In my latest speed test, only Slow 3G takes 2.09s but all other throttling is much quicker than 2s. 
 
 I also checked x 7 industry wide tests to run for a website : Lighthouse, WebPageTest, TestMySite, PageSpeed Insights, Speed Scorecard, Impact Calculator, Chrome Developer Tools
@@ -71,7 +82,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Deployment ##
+## Deployment (???) ##
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -92,7 +103,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 #### Media ####
 The photos used in this site were obtained from Unsplash and Shutterstock. 
-All Unsplash photos are full accredited to photographer in assets folder and CSS code.
+All Unsplash photos are fully accredited to photographer in assets folder and CSS code.
 Shutterstock photos did not come with any photographer names I could attribute. 
 
 #### Acknowledgements ####
@@ -106,10 +117,12 @@ I received inspiration for this project from my Dad who would not stop talking a
 "Stylish face masks to shop now"
 [(https://www.vogue.com/slideshow/stylish-face-masks-to-shop-now)]
 
+
 I took inspiration from a number of supplier websites listed below (I already work with these suppliers in real life on Bathroom & Towel product) :
 - Al Karam [(https://www.alkaram.com/corporate/)]
 - Al Rahim [(https://www.alrahimtextile.com/)]
 - Saad [(https://www.saadtextile.com/)]
+
 
 I also looked at presentation styles from face mask retailers including :
 - Katie May [(https://www.katiemay.com/)]

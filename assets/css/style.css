@@ -11,6 +11,123 @@
     font-size: 70% !important;
 }
 
+/*--------------------------------------------Wrapper for menu items*/
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.main {
+  text-align: center;
+  background: none;
+}
+
+.cell {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto; 
+
+    padding: 25px;
+    margin: 1px;
+
+    background-color: green;
+    border: 1px solid red;
+    text-align: center;
+}
+img {max-width:100%; height:auto;
+}
+
+#mighty-masks-logo {
+    height: 8vh;
+    width: 100%;
+    background: url(../logo/alt-mighty-masks-logo.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.aside-1 {
+  background: gold;
+}
+
+.aside-2 {
+  background: hotpink;
+}
+
+.aside-3 {
+  background: red;
+}
+
+.aside-4 {
+  background: silver;
+}
+
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .aside-2 { order: 2; }
+  .main    { order: 3; }
+  .aside-3 { order: 4; }
+  .aside-4 { order: 5; }
+  .footer  { order: 6; }
+}
+
+.aside {
+    padding:0;
+    font-size: 100%;
+    list-style-type: none;
+    margin:0;
+    text-transform: uppercase;
+}
+
+.aside a:hover {
+     color:lightcoral;
+}
+
+ aside a {
+     text-decoration: none;
+     font-size: 0.9rem;
+     letter-spacing: 1px;
+     color: #777777;
+     font-weight: 600;
+ }  
+
+.top-border {
+    height: 4vh;
+    background-color: rgba(103, 128, 159, .2);
+}
+
+/*--------------------------------------------Menu items*/
+
 #menu {
     padding:0;
     font-size: 100%;
@@ -82,11 +199,34 @@ hr {
     align-self: center;
 }
 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row-warp;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex-item {
+    background: Tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
 /*--------------------------------------------Hero-Image*/
 
 #hero-image {
     margin-left:0;
-    margin-right;0;
+    margin-right:0;
     padding-left:0;
     padding-right:0;
     height: 60vh;
@@ -277,6 +417,15 @@ hr {
     line-height:2em;
 }
 
+#FAQ {
+  color: #fafafa;
+  font-family: "Karla";
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+
+
 /*--------------------------------------------Quotes*/
 
 */
@@ -382,63 +531,6 @@ hr {
 
     position: relative;
 }
-
-/*--------------------------------------------Our-mission-panel-images*/
-
-#standard-face-masks {
-    width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-
-    background: url(../images/unsplash/macau-photo-agency-O8KXb87sTZs-unsplash.jpg);  
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-#company-founder {
-    width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-
-    background: url(../images/unsplash/juan-encalada-WC7KIHo13Fc-unsplash.jpg);  
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#customer-service {
-    width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-
-    background: url(../images/unsplash/yiranding-Z3lCF8lhji8-unsplash.jpg);  
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* ----------------------------------------Our-mission timeline */
-
-
-
-
 
 /*--------------------------------------------Our-values-responsive-squares*/
 
@@ -733,7 +825,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: lightcoral;
+  background-color: #777777;
   color: white;
   padding: 6px 10px;
   border: none;
@@ -743,7 +835,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: lightcoral;
+  background-color: #777777;
 }
 
 /*--------------------------------------------Get-In-Touch-Images*/
