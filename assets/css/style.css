@@ -203,7 +203,7 @@ body {
     font-size: 70% !important;
 }
 
-/*--------------------------------------------Aside Wrapper for menu items*/
+/*--------------------------------------------Aside Wrapper for menu items Code attribution css-tricks.com [(https://css-tricks.com/snippets/css/a-guide-to-flexbox/)]*/
 
 .wrapper {
   display: flex;  
@@ -365,7 +365,7 @@ hr {
     align-self: center;
 }
 
-/*--------------------------------------------Code attribution Travis Horn [(https://codepen.io/travishorn/pen/bzXEjd)] */
+/*--------------------------------------------Since deleted Code attribution Travis Horn [(https://codepen.io/travishorn/pen/bzXEjd)] */
 .card {
   color: white;
   height: 20vh;
@@ -408,6 +408,41 @@ hr {
   .cards { grid-template-columns: repeat(6, 1fr); }
 }
 
+
+/*--------------------------------------------Demo-Flex-Box [(https://codepen.io/team/css-tricks/pen/EKEYob)]*/
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 2px;
+  width: 4em;
+  height: 4em;
+  margin-top: 10px;
+  line-height: 4em;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
 
 /*--------------------------------------------Hero-Image*/
 
@@ -496,7 +531,6 @@ hr {
 
 #medical-masks {
     height: 30vh;
-
     background: url(../images/shutterstock/Medical%20Masks.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -512,7 +546,6 @@ hr {
 
 #N95-masks {
     height: 30vh;
-
     background: url(../images/shutterstock/Factory%20Worker.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -524,11 +557,18 @@ hr {
     justify-content: center;
 
     position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 24em) {
+  #N95-masks, fashion-masks {
+    margin: 0px 0px 0px 0px
+  }
 }
 
 #fashion-masks {
     height: 30vh;
-
     background: url(../images/shutterstock/Fashion%20Masks.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -542,10 +582,58 @@ hr {
     position: relative;
 }
 
+/*--------------------------------------------Code attribution Kristen Spencer Flex Box [(https://codepen.io/kristencodes/pen/BopVyB)] */
+
+.product-container{
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  flex: 1 0 calc(33% - 10px);
+}
+
+.box:after{
+  content: '';
+  display: block;
+}
+
+@media screen and (max-width: 24em) {
+  .product-container {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /*--------------------------------------------Order-influx-banner-images*/
 
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-influx {
+  background: rgba(103, 128, 159, .8);;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  line-height: 2em;
+  color: #f8f8ff;
+  font-size: 100%;
+  font-weight: 500;
+  text-align: center;
+}
+
 .orderinflux {
-    height: 10vh;
+    height: auto;
     background-color: rgba(103, 128, 159, .8);
     
     display: flex;
@@ -567,6 +655,14 @@ hr {
   text-transform: uppercase;
 }
 
+    a:hover {
+    background-color: #d8bb46;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    }
+
 
 
 /*--------------------------------------------Quotes*/
@@ -576,6 +672,12 @@ hr {
     font-family: "Roboto";
 }
 
+body {
+  padding: 2em;
+  font: 1em/1.5 'Open Sans', sans-serif;
+  color: #333;
+}
+
 .blockquote-custom {
   position: relative;
   font-size: 90%;
@@ -583,14 +685,15 @@ hr {
 
 .blockquote-custom-icon {
   width: 25px;
-  height: 25px;
+  height: auto;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
+  display: baseline;
+  align-items: baseline;
   justify-content: center;
   position: absolute;
   top: -12.5px;
   left: 25px;
+  flex: 1;
 }
 
 /*--------------------------------------------4-MillionMasks-Banner-Image*/
