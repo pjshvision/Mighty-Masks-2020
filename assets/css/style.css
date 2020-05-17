@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
-/*--------------------------------------------Microsoft Navbar Code attribution w3schools.com [(https://www.w3jar.com/editor/?fname=css-responsive-navigation-menu)]*/
+/*--------------------------------------------Since deleted Microsoft Navbar Code attribution w3schools.com [(https://www.w3jar.com/editor/?fname=css-responsive-navigation-menu)]*/
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-}
-
-body {
-
 }
 
 .nav-container {
@@ -212,7 +208,7 @@ body {
 
 
 .wrapper > * {
-  padding: 10px;
+  padding: 0px;
   flex: 1 100%;
 }
 
@@ -227,32 +223,41 @@ body {
 .main {
   text-align: center;
   background: none;
+  height: 60px;
 }
 
-img {max-width:100%; height:auto;
+img {
+    max-width:100%; 
+    height:60px;
+    margin: 0;
+    padding: 0;
 }
 
 .aside-1 {
   background: none;
+  height: 60px;
 }
 
 .aside-2 {
   background: none;
+  height: 60px;
 }
 
 .aside-3 {
   background: none;
+  height: 60px;
 }
 
 .aside-4 {
   background: none;
+  height: 60px;
 }
 
-@media all and (min-width: 24em) {
+@media all and (min-width: 34em) {
   .aside { flex: 1 0 0; }
 }
 
-@media all and (min-width: 50em) {
+@media all and (min-width: 62em) {
   .main    { flex: 3 0px; }
   .aside-1 { order: 1; } 
   .aside-2 { order: 2; }
@@ -266,8 +271,7 @@ img {max-width:100%; height:auto;
     height: 60px;
     list-style-type: none;
     margin:0;
-    text-decoration: none;
-    color: #999999;
+    color: #777777;
     font-size: 14px;
     text-transform: uppercase;
     display: block;
@@ -276,9 +280,13 @@ img {max-width:100%; height:auto;
     padding: 0 10px;
 }
 
-.aside a:hover {
-  color: black;
-  background-color: rgba(224, 156, 156, 0.15);
+.aside li a:hover {
+  color: lightcoral;
+  text-decoration:none;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
 }
 
 .aside .navbar ul .close {
@@ -288,11 +296,10 @@ img {max-width:100%; height:auto;
 }
 
 .aside a {
-     text-decoration: none;
      font-size: 0.9rem;
      letter-spacing: 1px;
-     color: #999999;
-     font-weight: 100;
+     color: #777777;
+     font-weight: 600;
  }  
 
 /*--------------------------------------------Menu items*/
@@ -365,85 +372,6 @@ hr {
     align-self: center;
 }
 
-/*--------------------------------------------Since deleted Code attribution Travis Horn [(https://codepen.io/travishorn/pen/bzXEjd)] */
-.card {
-  color: white;
-  height: 20vh;
-}
-
-.cards {
-  max-width: 100em;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 1rem;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
-  align-items: center;
-  justify-content: center;
-  
-  position: relative;
-  border-radius: 50%;
-}
-
-/* Small screen 1 column */
-@media (min-width: 24em) {
-  .cards { grid-template-columns: repeat(2, 1fr); }
-}
-
-/* Med screen 3 columns */
-@media (min-width: 46.8em) {
-  .cards { grid-template-columns: repeat(3, 1fr); }
-}
-
-/* Large screen 3 columns */
-@media (min-width: 50em) {
-  .cards { grid-template-columns: repeat(3, 1fr); }
-}
-
-/* XL screen 6 columns */
-@media (min-width: 73em) {
-  .cards { grid-template-columns: repeat(6, 1fr); }
-}
-
-
-/*--------------------------------------------Demo-Flex-Box [(https://codepen.io/team/css-tricks/pen/EKEYob)]*/
-
-.flex-container {
-  /* We first create a flex layout context */
-  display: flex;
-  
-  /* Then we define the flow direction 
-     and if we allow the items to wrap 
-   * Remember this is the same as:
-   * flex-direction: row;
-   * flex-wrap: wrap;
-   */
-  flex-flow: row wrap;
-  
-  /* Then we define how is distributed the remaining space */
-  justify-content: space-around;
-  
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.flex-item {
-  background: tomato;
-  padding: 2px;
-  width: 4em;
-  height: 4em;
-  margin-top: 10px;
-  line-height: 4em;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
 /*--------------------------------------------Hero-Image*/
 
 #hero-image {
@@ -458,14 +386,30 @@ hr {
     background-position: center;
 }
 
-#hero-image-values {
-    height: 60vh;
-    width: 100%;
-    background: url(../images/unsplash/marilia-castelli-uJVKkdUx0dA-unsplash.jpg) no-repeat center center;
-    background-size: cover;
-    background-position: center;
+/*--------------------------------------------Demo-Flex-Box [(https://codepen.io/team/css-tricks/pen/EKEYob)]*/
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
+.flex-item {
+  background: tomato;
+  padding: 2px;
+  width: 3.8em;
+  height: 3.8em;
+  margin-top: 10px;
+  line-height: 4em;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
 
 /*--------------------------------------------Brand-Images*/
 
@@ -529,6 +473,61 @@ hr {
 
 /*--------------------------------------------Product-Images*/
 
+.product-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.product-item {
+  background: tomato;
+  padding: 2px;
+  width: 10em;
+  height: 10em;
+  margin-top: 10px;
+  line-height: 4em;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.medical-masks {
+    background: url(../images/shutterstock/Medical%20Masks.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.N95-masks {
+    background: url(../images/shutterstock/Factory%20Worker.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fashion-masks {
+    background: url(../images/shutterstock/Fashion%20Masks.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #medical-masks {
     height: 30vh;
     background: url(../images/shutterstock/Medical%20Masks.jpg);
@@ -542,6 +541,7 @@ hr {
     justify-content: center;
 
     position: relative;
+    
 }
 
 #N95-masks {
@@ -557,11 +557,9 @@ hr {
     justify-content: center;
 
     position: relative;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
-@media screen and (max-width: 24em) {
+@media screen and (max-width: 34em) {
   #N95-masks, fashion-masks {
     margin: 0px 0px 0px 0px
   }
@@ -599,7 +597,7 @@ hr {
   display: block;
 }
 
-@media screen and (max-width: 24em) {
+@media screen and (max-width: 414px) {
   .product-container {
     border: none;
     display: flex;
@@ -617,6 +615,7 @@ hr {
   padding: 0;
   margin: 0;
   list-style: none;
+  flex: 1;
 }
 
 .flex-influx {
@@ -663,8 +662,6 @@ hr {
     -o-transition: all 0.35s ease-in-out;
     }
 
-
-
 /*--------------------------------------------Quotes*/
 
 .quote{
@@ -687,6 +684,22 @@ hr {
   top: -12.5px;
   left: 25px;
   flex: 1;
+}
+
+@media screen and (min-width: 582px) {
+  .flex-container-quotes {
+    border: none;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  .flex-container-quotes {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*--------------------------------------------4-MillionMasks-Banner-Image*/
