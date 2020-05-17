@@ -379,7 +379,7 @@ hr {
     margin-right:0;
     padding-left:0;
     padding-right:0;
-    height: 60vh;
+    height: 30em;
     width: 100%;
     background: url(../images/shutterstock/Hero%20Image.jpg) no-repeat center center;
     background-size: cover;
@@ -392,33 +392,22 @@ hr {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
 .flex-item {
-  background: tomato;
-  padding: 2px;
   width: 3.8em;
   height: 3.8em;
   margin-top: 10px;
   line-height: 4em;
-  color: white;
-  font-weight: bold;
   font-size: 3em;
-  text-align: center;
 }
 
 /*--------------------------------------------Brand-Images*/
 
 .circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
     border-radius: 50%;
 }
 
@@ -428,6 +417,7 @@ hr {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
 }
 
 .medicare {
@@ -436,7 +426,6 @@ hr {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
 
 .nhs {
@@ -453,6 +442,7 @@ hr {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
 }
 
 .zara {
@@ -473,63 +463,8 @@ hr {
 
 /*--------------------------------------------Product-Images*/
 
-.product-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.product-item {
-  background: tomato;
-  padding: 2px;
-  width: 10em;
-  height: 10em;
-  margin-top: 10px;
-  line-height: 4em;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
-.square {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-.medical-masks {
-    background: url(../images/shutterstock/Medical%20Masks.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.N95-masks {
-    background: url(../images/shutterstock/Factory%20Worker.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.fashion-masks {
-    background: url(../images/shutterstock/Fashion%20Masks.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 #medical-masks {
-    height: 30vh;
+    height: 20em;
     background: url(../images/shutterstock/Medical%20Masks.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -539,13 +474,12 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-position: center;
     position: relative;
-    
 }
 
 #N95-masks {
-    height: 30vh;
+    height: 20em;
     background: url(../images/shutterstock/Factory%20Worker.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -555,7 +489,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-position: center;
     position: relative;
 }
 
@@ -566,7 +500,7 @@ hr {
 }
 
 #fashion-masks {
-    height: 30vh;
+    height: 20em;
     background: url(../images/shutterstock/Fashion%20Masks.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -576,7 +510,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-position: center;
     position: relative;
 }
 
