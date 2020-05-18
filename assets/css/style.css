@@ -897,37 +897,37 @@ footer{
     height: 75px;
 }
 
-.footer-aside-1 {
+.top-footer-aside-1 {
   height: 5px;
 }
 
-.footer-aside-2 {
+.top-footer-aside-2 {
   height: 5px;
 }
 
-.footer-aside-3 {
+.top-footer-aside-3 {
   height: 5px;
 }
 
-.footer-aside-4 {
+.top-footer-aside-4 {
   height: 5px;
 }
 
 @media all and (min-width: 34em) {
-  .footer-aside { flex: 1 0 0; }
+  .top-footer-aside { flex: 1 0 0; }
 }
 
 @media all and (min-width: 62em) {
   .main    { flex: 3 0px; }
-  .footer-aside-1 { order: 1; } 
-  .footer-aside-2 { order: 2; }
+  .top-footer-aside-1 { order: 1; } 
+  .top-footer-aside-2 { order: 2; }
   .main    { order: 3; }
-  .footer-aside-3 { order: 4; }
+  .top-footer-aside-3 { order: 4; }
   .footer-aside-4 { order: 5; }
-  .footer  { order: 6; }
+  .top-footer  { order: 6; }
 }
 
-.footer-aside {
+.top-footer-aside {
     height: 20px;
     color: #777777;
     font-size: 80%;
@@ -938,7 +938,7 @@ footer{
     margin-top: 10px;
 }
 
- .footer-aside a {
+ .top-footer-aside a {
      color: #777777;
      text-decoration: none;
      font-size: 0.8rem;
@@ -946,7 +946,7 @@ footer{
      list-style-type: none;
  } 
 
-.footer-aside a:hover {
+.top-footer-aside a:hover {
      color:lightcoral;
 }
 
@@ -980,26 +980,7 @@ footer{
     text-align: center;
 }
 
-#footermenu {
-    color: #777777;
-    font-size: 80%;
-    align-items: center;
-    list-style-type: none;
-    margin:0;
-    text-transform:none;
-}
-
-#footermenu a:hover {
-     color:lightcoral;
-}
-
- #footermenu a {
-     color: #777777;
-     text-decoration: none;
-     font-size: 0.8rem;
-     font-weight: 400;
-     list-style-type: none;
- } 
+/*--------------------------------------------Btm-Footer Copyright/Logo/Spotify*/
 
 #footerlogo {
     height: 2em;
@@ -1019,19 +1000,43 @@ footer{
     position: relative;
 }
 
-#footer-end {
-    color: #777777;
-    font-size: 80%;
-    align-items: center;
-    list-style-type: none;
-    margin-left:3px;
-    margin-right:3px;
-    text-transform:none;
-    margin-bottom:0;
+.btm-footer-aside-1 {
+  height: 5px;
+  margin-top: 1px;
 }
 
- #footer-end a {
-     color: #777777;
+.btm-footer-aside-2 {
+  height: 5px;
+  margin-top: 1px;
+}
+
+.btm-footer-aside-3 {
+  height: 5px;
+  margin-top: 1px;
+}
+
+@media all and (min-width: 34em) {
+  .btm-footer-aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 62em) {
+  .main    { flex: 3 0px; }
+  .btm-footer-aside-1 { order: 1; } 
+  .btm-footer-aside-2 { order: 2; }
+  .btm-footer-aside-3 { order: 4; }
+  .btm-footer  { order: 6; }
+}
+
+.btm-footer-aside {
+     margin-top: 5em;
+     color: #999999;
+     text-decoration: none;
+     font-size: 0.8rem;
+     font-weight: 400;
+     list-style-type: none;
+}
+
+ .btm-footer-aside a {
      text-decoration: none;
      font-size: 0.8rem;
      font-weight: 400;
@@ -1047,11 +1052,9 @@ footer{
     -o-background-size: cover;
     background-size: cover;
     
-    align-items: right;
-    justify-content: right;
-    float: right;
+    align-items: center;
     margin-left: auto;
-    margin-right: 1em;
+    margin-right: auto;
 }
 
 /*--------------------------------------------MightyMasksMap*/
