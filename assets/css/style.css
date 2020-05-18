@@ -493,9 +493,15 @@ hr {
     position: relative;
 }
 
+@media screen and (min-width: 34em) {
+  #N95-masks {
+    margin: 0px 10px 0px 10px
+  }
+}
+
 @media screen and (max-width: 34em) {
-  #N95-masks, fashion-masks {
-    margin: 0px 0px 0px 0px
+  #N95-masks, #fashion-masks {
+    margin: 25px 0px 0px 0px
   }
 }
 
@@ -531,7 +537,7 @@ hr {
   display: block;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 546px) {
   .product-container {
     border: none;
     display: flex;
@@ -557,7 +563,7 @@ hr {
   padding: 0px;
   width: 100%;
   height: auto;
-  margin-top: 5px;
+  margin-top: 20px;
   line-height: 2em;
   color: #f8f8ff;
   font-size: 100%;
@@ -639,7 +645,7 @@ hr {
 /*--------------------------------------------4-MillionMasks-Banner-Image*/
 
 .fourmillionmasks {
-    height: 10vh;
+    height: 10em;
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     background: url(../images/unsplash/vera-davidova-YHZIGRwk764-unsplash.jpg); 
     -webkit-background-size: cover;
@@ -652,60 +658,69 @@ hr {
     justify-content: center;
 
     position: relative;
+    background-position: center;
 }
 
 /*--------------------------------------------Btm-Pg-Images*/
 
-.btm-img {
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+@media screen and (min-width: 34em) {
+  #backpacker {
+    margin: 0px 10px 0px 10px
+  }
 }
 
-.factory {
+@media screen and (max-width: 34em) {
+  #emergency-workers, #backpacker {
+    margin: 25px 0px 0px 0px
+  }
+}
+
+#factory {
+    height: 25em;
     background: url(../images/shutterstock/Factory.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 30vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-position: center;
     position: relative;
 }
 
-.emergency-workers {
-    background: url(../images/shutterstock/Emergency%20Workers.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-.backpacker {
+#backpacker {
+    height: 25em;  
     background: url(../images/shutterstock/Idealised%20Customer.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 30vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-position: center;
     position: relative;
 }
+
+#emergency-workers {
+    height: 25em;  
+    background: url(../images/shutterstock/Emergency%20Workers.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+}
+
+
 
 .together {
     height: 10vh;
@@ -876,11 +891,63 @@ form {
     color: lightcoral;
     font-size: 90%;
     font-weight: 500;
-
 }
 
 footer{
     height: 75px;
+}
+
+.footer-aside-1 {
+  height: 5px;
+}
+
+.footer-aside-2 {
+  height: 5px;
+}
+
+.footer-aside-3 {
+  height: 5px;
+}
+
+.footer-aside-4 {
+  height: 5px;
+}
+
+@media all and (min-width: 34em) {
+  .footer-aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 62em) {
+  .main    { flex: 3 0px; }
+  .footer-aside-1 { order: 1; } 
+  .footer-aside-2 { order: 2; }
+  .main    { order: 3; }
+  .footer-aside-3 { order: 4; }
+  .footer-aside-4 { order: 5; }
+  .footer  { order: 6; }
+}
+
+.footer-aside {
+    height: 20px;
+    color: #777777;
+    font-size: 80%;
+    align-items: center;
+    list-style-type: none;
+    margin:0;
+    text-transform:none;
+    margin-top: 10px;
+}
+
+ .footer-aside a {
+     color: #777777;
+     text-decoration: none;
+     font-size: 0.8rem;
+     font-weight: 400;
+     list-style-type: none;
+ } 
+
+.footer-aside a:hover {
+     color:lightcoral;
 }
 
 .social-media i:hover {
