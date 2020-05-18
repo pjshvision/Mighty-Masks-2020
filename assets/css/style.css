@@ -738,6 +738,62 @@ hr {
     position: relative;
 }
 
+/*--------------------------------------------Our-mission-panel-images*/
+
+#standard-face-masks {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+
+    background: url(../images/unsplash/macau-photo-agency-O8KXb87sTZs-unsplash.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#company-founder {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+
+    background: url(../images/unsplash/juan-encalada-WC7KIHo13Fc-unsplash.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#customer-service {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+
+    background: url(../images/unsplash/yiranding-Z3lCF8lhji8-unsplash.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------------------------------------Our-mission timeline */
+
+
+
+
 /*--------------------------------------------Our-values-responsive-squares*/
 
 .square {
