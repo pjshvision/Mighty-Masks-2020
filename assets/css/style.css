@@ -197,6 +197,11 @@
     font-size: 70% !important;
 }
 
+.top-border {
+    height: 2.5em;
+    background-color: rgba(103, 128, 159, .15);
+}
+
 /*--------------------------------------------Aside Wrapper for menu items Code attribution css-tricks.com [(https://css-tricks.com/snippets/css/a-guide-to-flexbox/)]*/
 
 .wrapper {
@@ -379,12 +384,21 @@ hr {
     margin-right:0;
     padding-left:0;
     padding-right:0;
-    height: 30em;
+    height: 35em;
     width: 100%;
     background: url(../images/shutterstock/Hero%20Image.jpg) no-repeat center center;
     background-size: cover;
     background-position: center;
 }
+
+#hero-image-values {
+    height: 35em;
+    width: 100%;
+    background: url(../images/unsplash/marilia-castelli-uJVKkdUx0dA-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
 
 /*--------------------------------------------Demo-Flex-Box [(https://codepen.io/team/css-tricks/pen/EKEYob)]*/
 
@@ -720,24 +734,6 @@ hr {
     position: relative;
 }
 
-
-
-.together {
-    height: 10vh;
-
-    background: url(../images/unsplash/william-lu-YMgtt_cYT2I-unsplash.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
 /*--------------------------------------------Our-mission-panel-images*/
 
 #standard-face-masks {
@@ -796,6 +792,48 @@ hr {
 
 /*--------------------------------------------Our-values-responsive-squares*/
 
+.values-container{
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+    .values-container .box{
+    flex: 1 0 calc(50% - 10px);
+    text-align: center;
+}
+
+.values-container .box2, .box6, .box10 {
+    background: rgba(224, 156, 156, 0.15);  
+}
+
+.values-container .box3, .box7 {
+    background: rgba(249,249,249,1);  
+}
+
+    .values-container .box2, .box4,{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(224, 156, 156, 0.15);
+    }
+
+.values-container .box:after{
+  content: '';
+  display: block;
+}
+
+@media screen and (max-width: 546px) {
+  .values-container {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .square {
     content: "";
     display: block;
@@ -839,6 +877,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
 }
 
 #energy-usage {
@@ -874,6 +913,7 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-position: center;
 }
 
 #certification {
