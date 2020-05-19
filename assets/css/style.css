@@ -738,53 +738,88 @@ hr {
 
 /*--------------------------------------------Our-mission-panel-images*/
 
-#standard-face-masks {
-    width: 100%;
-    padding-bottom: 100%;
-    position: relative;
+@media screen and (max-width: 990px) {
+  .mission-container {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  .mission-container .box1, .box2, .box3, .box4, .box5, .box6 {
+    margin: 10px 0px 10px 0px
+  }
+}
+
+.mission-container{
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+    .mission-container .box{
+    flex: 1 0 calc(33% - 10px);
+    text-align: center;
+}
+
+.mission-container .box2, box {
+    background: rgba(224, 156, 156, 0.15);  
+}
+
+.mission-container .box4, .box6 {
+    background: rgba(249,249,249,1);  
+}
+
+#box6 {
+    background: rgba(249,249,249,1);  
+}
+
+.mission-container .box:after{
+  content: '';
+  display: block;
+}
+
+.mn-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+}
+
+#standard-face-masks {
+    height: 30em;
+    width: 100%;
     background: url(../images/unsplash/macau-photo-agency-O8KXb87sTZs-unsplash.jpg);  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
 #company-founder {
+    height: 30em;
     width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-
     background: url(../images/unsplash/juan-encalada-WC7KIHo13Fc-unsplash.jpg);  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-#customer-service {
+#hq {
+    height: 30em;
     width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-
     background: url(../images/unsplash/yiranding-Z3lCF8lhji8-unsplash.jpg);  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: top;
     
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* ----------------------------------------Our-mission timeline */
@@ -803,7 +838,7 @@ hr {
 }
 
 @media screen and (max-width: 767px) {
-  .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+  .values-container .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     margin: 10px 0px 10px 0px
   }
 }
@@ -820,26 +855,12 @@ hr {
 }
 
 .values-container .box2, .box6, .box10 {
-    height: 30em;
-    position: relative;
     background: rgba(224, 156, 156, 0.15);  
 }
 
 .values-container .box3, .box7 {
-    height: 30em;
-    position: relative;
     background: rgba(249,249,249,1);  
 }
-
-    .values-container .box2, .box4,{
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(224, 156, 156, 0.15);
-    }
 
 .values-container .box:after{
   content: '';
