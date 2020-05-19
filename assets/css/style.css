@@ -956,6 +956,123 @@ hr {
     background-size: cover;
 }
 
+/*--------------------------------------------Get-in-touch*/
+
+@media screen and (max-width: 990px) {
+  .get-container {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .get-container .box1, .box2, .box3, .box4, .box5, .box6 {
+    margin: 10px 0px 10px 0px
+  }
+}
+
+.get-container{
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+    .get-container .box{
+    flex: 1 0 calc(50% - 10px);
+    text-align: center;
+}
+
+#box1 {
+    background: rgba(249,249,249,1);  
+}
+
+.frame {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+#box2 {
+    background: rgba(224, 156, 156, 0.15);  
+}
+
+.get-container .box4, .box6 {
+    background: rgba(249,249,249,1);  
+}
+
+#box6 {
+    background: rgba(249,249,249,1);  
+}
+
+.get-container .box:after{
+  content: '';
+  display: block;
+}
+
+.get-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+}
+
+#shisizang {
+    height: 30em;
+    width: 100%;
+    background: url(../images/unsplash/junho-chak-aDF2WcvGfkU-unsplash%20v2.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#fish-and-chips {
+    height: 30em;
+    width: 100%;
+    background: url(../images/unsplash/edward-howell-Jbf9nNe_qaE-unsplash%20v2.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.FAQ {
+    text-align: center;
+    height: 100vh;
+    background-color: rgba(224, 156, 156, 0.15);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    font-family: "Karla";
+    font-size: 100%;
+    font-weight: 500;
+    line-height:2em;
+}
+
+
+#free-swatch {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+
+
+    background: url(../images/unsplash/bara-buri-1NPbmHxl_VE-unsplash.jpg);  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*--------------------------------------------Color*/
 
 #call-out {
@@ -1203,70 +1320,3 @@ input[type=submit]:hover {
 
 /*--------------------------------------------Get-In-Touch-Images*/
 
-#shisizang {
-    width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-
-
-    background: url(../images/unsplash/junho-chak-aDF2WcvGfkU-unsplash%20v2.jpg);  
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#fish-and-chips {
-    width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-
-
-    background: url(../images/unsplash/edward-howell-Jbf9nNe_qaE-unsplash%20v2.jpg);  
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.FAQ {
-    text-align: center;
-    height: 100vh;
-    background-color: rgba(224, 156, 156, 0.15);
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-    font-family: "Karla";
-    font-size: 100%;
-    font-weight: 500;
-    line-height:2em;
-}
-
-
-#free-swatch {
-    width: 100%;
-    height: 60vh;
-    position: relative;
-
-
-    background: url(../images/unsplash/bara-buri-1NPbmHxl_VE-unsplash.jpg);  
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
