@@ -1052,7 +1052,15 @@ footer{
      font-size: 0.8rem;
      font-weight: 400;
      list-style-type: none;
- } 
+ }
+
+a {
+    color: #999999;
+}
+
+a:hover {
+    color: #999999;
+}
 
 #shopify {
     height: 0.9em;
