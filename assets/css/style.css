@@ -477,6 +477,18 @@ hr {
 
 /*--------------------------------------------Product-Images*/
 
+@media screen and (min-width: 34em) {
+  #N95-masks {
+    margin: 0px 10px 0px 10px
+  }
+}
+
+@media screen and (max-width: 34em) {
+  #N95-masks, #fashion-masks {
+    margin: 25px 0px 0px 0px
+  }
+}
+
 #medical-masks {
     height: 20em;
     background: url(../images/shutterstock/Medical%20Masks.jpg);
@@ -507,18 +519,6 @@ hr {
     position: relative;
 }
 
-@media screen and (min-width: 34em) {
-  #N95-masks {
-    margin: 0px 10px 0px 10px
-  }
-}
-
-@media screen and (max-width: 34em) {
-  #N95-masks, #fashion-masks {
-    margin: 25px 0px 0px 0px
-  }
-}
-
 #fashion-masks {
     height: 20em;
     background: url(../images/shutterstock/Fashion%20Masks.jpg);
@@ -536,6 +536,14 @@ hr {
 
 /*--------------------------------------------Code attribution Kristen Spencer Flex Box [(https://codepen.io/kristencodes/pen/BopVyB)] */
 
+@media screen and (max-width: 546px) {
+  .product-container {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .product-container{
   border: none;
   display: flex;
@@ -551,13 +559,7 @@ hr {
   display: block;
 }
 
-@media screen and (max-width: 546px) {
-  .product-container {
-    border: none;
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 
 /*--------------------------------------------Order-influx-banner-images*/
 
@@ -618,6 +620,22 @@ hr {
 
 /*--------------------------------------------Quotes*/
 
+@media screen and (min-width: 582px) {
+  .flex-container-quotes {
+    border: none;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  .flex-container-quotes {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .quote{
     font-family: "Roboto";
 }
@@ -638,22 +656,6 @@ hr {
   top: -12.5px;
   left: 25px;
   flex: 1;
-}
-
-@media screen and (min-width: 582px) {
-  .flex-container-quotes {
-    border: none;
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-@media screen and (max-width: 582px) {
-  .flex-container-quotes {
-    border: none;
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 /*--------------------------------------------4-MillionMasks-Banner-Image*/
@@ -792,6 +794,20 @@ hr {
 
 /*--------------------------------------------Our-values-responsive-squares*/
 
+@media screen and (max-width: 990px) {
+  .values-container {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+    margin: 10px 0px 10px 0px
+  }
+}
+
 .values-container{
   border: none;
   display: flex;
@@ -804,10 +820,14 @@ hr {
 }
 
 .values-container .box2, .box6, .box10 {
+    height: 30em;
+    position: relative;
     background: rgba(224, 156, 156, 0.15);  
 }
 
 .values-container .box3, .box7 {
+    height: 30em;
+    position: relative;
     background: rgba(249,249,249,1);  
 }
 
@@ -824,14 +844,6 @@ hr {
 .values-container .box:after{
   content: '';
   display: block;
-}
-
-@media screen and (max-width: 546px) {
-  .values-container {
-    border: none;
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 .square {
@@ -862,92 +874,65 @@ hr {
 
 /*--------------------------------------------Our-values-panel-images*/
 
-#ethics {
-    width: 100%;
-    padding-bottom: 100%;
+.vl-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
     position: relative;
-    background-color: #2980b9;
+}
 
+#ethics {
+    height: 30em;
+    width: 100%;
     background: url(../images/unsplash/yue-iris-JojyyiO7ydw-unsplash.jpg);  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-position: center;
 }
 
 #energy-usage {
+    height: 30em;
     width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-    background-color: #2980b9;
-
-
     background: url(../images/shutterstock/Energy%20Usage.jpg);  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-position: center;
 }
 
 #health-safety {
+    height: 30em;
     width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-    background-color: #2980b9;
-
     background: url(../images/shutterstock/Health%20%26%20Safety.jpg);  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     background-position: center;
 }
 
 #certification {
+    height: 30em;
     width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-    background-color: #2980b9;
-
     background: url(../images/shutterstock/Certification.jpg);  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #community {
+    height: 30em;
     width: 100%;
-    padding-bottom: 100%;
-    position: relative;
-    background-color: #2980b9;
-
     background: url(../images/shutterstock/Community.jpg);  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /*--------------------------------------------Color*/
