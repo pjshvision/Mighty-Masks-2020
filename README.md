@@ -83,6 +83,8 @@ I also checked x 7 industry wide tests to run for a website : Lighthouse, WebPag
 In my 3rd & final speed test, I have all images below 200KB (except some marginal cases where it lead to a poor result)
 Avg DOMContentLoaded time is around 275ms on my network, 630ms on Fast 3G and 2.03s on Slow 3G 
 
+All code successfully passed CSS & HTML validators (after a few tweaks)
+
 ## Contact form: ##
 A this stage the Mighty Masks website contact form is inactive. The button works but will need to link to .php source at a future date. I would also add a toaster using JavaScript to show email sent confirmation.
 
@@ -101,14 +103,15 @@ To deploy I went to Settings in my repository. I selected the Master Branch.
 There are two noticeable differences between the deployed version and the development version. 
 
 The first is that it lands on the product page rather than the index.html page. 
-This is an unexpected result as GitPod always opens on index.html
+This is an unexpected result as GitPod opens on index.html - note this has now been solved by correcting to index.html [(https://pjshvision.github.io/Mighty-Masks-2020/index.html)]
 
 The second is that my logo is conspicuously missing. The documentation in my gitpod messages shows that the logo was the hardest challenge for me to solve. It is disappointing that it fails to show after the hard work was done finding an attractive solution.
 I suspect it may be due to the img src link but will need to follow up on this.
 
-I checked the deployed version on my mobile phone and it looks good bar the above two issues.
+I checked the deployed version on my mobile phone and it looks very nice bar the above two issues.
 
-I was unaware prior to deployment that it could look any different from GitPod. This is a valuable lesson I will take onboard.
+I was unaware prior to deployment that it could look any different from GitPod. 
+This is a valuable lesson I will take onboard in the future.
 
 ## Credits ##
 #### Content ####
