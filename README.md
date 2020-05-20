@@ -76,32 +76,26 @@ The project uses JQuery to simplify DOM manipulation.
 I noticed speed load times were slow in Chrome Developer Tools. I initially resized all images from 5000KB to 1000-1500KB. 
 
 Load time was still over 2s+ so I resized images a second time to 500KB or lower.
-
-In my latest speed test, only Slow 3G takes 2.09s but all other throttling is much quicker than 2s. 
+In my 2nd speed test, only Slow 3G takes 2.09s but all other throttling is much quicker than 2s. 
 
 I also checked x 7 industry wide tests to run for a website : Lighthouse, WebPageTest, TestMySite, PageSpeed Insights, Speed Scorecard, Impact Calculator, Chrome Developer Tools
 
+In my 3rd & final speed test, I have all images below 200KB (except some marginal cases where it lead to a poor result)
+Avg DOMContentLoaded time is around 275ms on my network, 630ms on Fast 3G and 2.03s on Slow 3G 
 
-## Contact form: (???) ##
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+## Contact form: ##
+A this stage the Mighty Masks website contact form is inactive. The button works but will need to link to .php source at a future date. I would also add a toaster using JavaScript to show email sent confirmation.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+My website looks good on different breakpoints. I designed with a view for desktop, i-pad and mobile. The images turn to photo style in mobile and flex box was instrumental in adjusting the content.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I've found Our-Mission to be a glitchy page. The image files are small after x 3 rounds of resizing. However, it always seems to take just a fraction longer to load on this page. This is despite having relatively little content.
 
-## Deployment (???) ##
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+If you have any feedback for me as an author I am reachable at peter.og.shearman@gmail.com
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+## Deployment ##
+Mighty Masks is deployed on GitHub Pages.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+There are no differences between the deployed version and the development version.
 
 ## Credits ##
 #### Content ####
