@@ -67,7 +67,7 @@ I would add the following post-JavaScript course :
 
 #### Technologies Used : GitHub, GitPod ####
 **Languages** : HTML5, CSS3
-**Tools** : Bootstrap, Flex Box, resizeimage.net, Font Awesome, Google Fonts, Chrome Developer Tools
+**Tools** : Bootstrap, Flex Box, picresize.com, Font Awesome, Google Fonts, Chrome Developer Tools
 
 #### JQuery ####
 The project uses JQuery to simplify DOM manipulation.
@@ -180,7 +180,7 @@ I attribute code taken & modified from :
 
 
 I'd to thank my mentor Jonathan Munz who gave me some excellent tips. 
-Also my friend Goutham Madhava who gave me some pointers on server capabilities and image resizing. 
+Also my friend Goutham Madhava who gave me some pointers on server capabilities and image resizing which was an Achilles Heel of mine.
 
 
 
