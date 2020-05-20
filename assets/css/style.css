@@ -243,7 +243,6 @@ hr {
   }
 }
 
-/*attribution shutterstock*/
 #medical-masks {
     height: 20em;
     background: url(../images/shutterstock/Medical%20Masks.jpg);
@@ -253,8 +252,6 @@ hr {
     background-size: cover;
     
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-position: center;
     position: relative;
 }
@@ -268,8 +265,6 @@ hr {
     background-size: cover;
     
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-position: center;
     position: relative;
 }
@@ -283,8 +278,6 @@ hr {
     background-size: cover;
     
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-position: center;
     position: relative;
 }
@@ -433,6 +426,13 @@ hr {
     background-position: center;
 }
 
+#call-out {
+    font-family: "Montserrat", sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+    color: #f8f8f8;
+}
+
 /*--------------------------------------------Btm-Pg-Images*/
 
 @media screen and (min-width: 34em) {
@@ -495,7 +495,172 @@ hr {
     position: relative;
 }
 
-/*--------------------------------------------Our-mission-panel-images*/
+/*Footer--------------------------------------------Sign up newsletter*/
+
+form {
+    display: inline;
+    text-align: center;
+}
+
+#stay-strong {
+    color: #777777;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+#call-to-action {
+    font-family: "Montserrat";
+    color: lightcoral;
+    font-size: 90%;
+    font-weight: 500;
+}
+
+/*--------------------------------------------Top-Footer hyperlinks & social media*/
+
+@media all and (min-width: 34em) {
+  .top-footer-aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 62em) {
+  .main    { flex: 3 0px; }
+  .top-footer-aside-1 { order: 1; } 
+  .top-footer-aside-2 { order: 2; }
+  .main    { order: 3; }
+  .top-footer-aside-3 { order: 4; }
+  .footer-aside-4 { order: 5; }
+  .top-footer  { order: 6; }
+}
+
+.top-footer-aside-1, .top-footer-aside-2, .top-footer-aside-3, .top-footer-aside-4 {
+  height: 5px;
+}
+
+.top-footer-aside {
+    height: 20px;
+    color: #777777;
+    align-items: center;
+    list-style-type: none;
+    margin:0;
+    text-transform:none;
+    margin-top: 10px;
+}
+
+ .top-footer-aside a {
+     color: #777777;
+     text-decoration: none;
+     font-size: 0.8rem;
+     font-weight: 400;
+ } 
+
+.top-footer-aside a:hover {
+     color:lightcoral;
+}
+
+.social-media i:hover {
+     color:lightcoral;
+     transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -webkit-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
+}
+
+.social-media li {
+    display: inline;
+    padding:1%;
+}
+
+.social-media i {
+    font-size: 140%;
+    margin: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #777777;
+}
+
+/*--------------------------------------------Btm-Footer copyright/logo/spotify*/
+
+#footerlogo {
+    height: 2em;
+    width: 6em;
+    background: url(../logo/mighty-masks-footer-logo.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btm-footer-aside-1 {
+  height: 5px;
+  margin-top: 1px;
+}
+
+.btm-footer-aside-2 {
+  height: 5px;
+  margin-top: 1px;
+}
+
+.btm-footer-aside-3 {
+  height: 5px;
+  margin-top: 1px;
+}
+
+@media all and (min-width: 34em) {
+  .btm-footer-aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 62em) {
+  .main    { flex: 3 0px; }
+  .btm-footer-aside-1 { order: 1; } 
+  .btm-footer-aside-2 { order: 2; }
+  .btm-footer-aside-3 { order: 4; }
+  .btm-footer  { order: 6; }
+}
+
+.btm-footer-aside {
+     margin-top: 5em;
+     color: #999999;
+     text-decoration: none;
+     font-size: 0.8rem;
+     font-weight: 400;
+     list-style-type: none;
+}
+
+ .btm-footer-aside a {
+     text-decoration: none;
+     font-size: 0.8rem;
+     font-weight: 400;
+     list-style-type: none;
+ }
+
+a {
+    color: #999999;
+}
+
+a:hover {
+    color: #999999;
+}
+
+/*attribution shopify*/
+#shopify {
+    height: 0.9em;
+    width: 14em;
+    background: url(../logo/shopify.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Our-Mission Pg--------------------------------------------Media Queries, Containers*/
 
 @media screen and (max-width: 990px) {
   .mission-container {
@@ -533,6 +698,8 @@ hr {
   content: '';
   display: block;
 }
+
+/*--------------------------------------------Our-mission-panel-images*/
 
 /*attribution unsplash macau-photo-agency*/
 #standard-face-masks {
@@ -628,27 +795,7 @@ hr {
   display: block;
 }
 
-.inner-content {
-    text-align: center;
-    position:  absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(224, 156, 156, 0.15)
-}
-
-.clean-content {
-    text-align: center;
-    position:  absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(249,249,249,1)
-}
-
-/*--------------------------------------------Our-values-panel-images*/
+/*--------------------------------------------Our-values-panel-images, certification hover*/
 
 /*attribution unsplash yue-iris*/
 #ethics {
@@ -716,7 +863,7 @@ hr {
     background-size: cover;
 }
 
-/*--------------------------------------------Get-in-touch*/
+/*Get-In-Touch-Pg--------------------------------------------Media Queries, Containers, FAQ-questions*/
 
 @media screen and (max-width: 990px) {
   .get-container {
@@ -748,11 +895,11 @@ hr {
     padding-bottom: 2em;
 }
 
-#box2, #questions {
+#box2, #FAQ-questions {
     background: rgba(224, 156, 156, 0.15);  
 }
 
-#questions {
+#FAQ-questions {
     line-height: 2em;
     font-weight: 500;
 }
@@ -761,6 +908,47 @@ hr {
   content: '';
   display: block;
 }
+
+/*--------------------------------------------Get-in-touch ContactForm*/
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid rgba(103, 128, 159, .2);
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 3px; 
+  margin-bottom: 8px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #777777;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: lightcoral;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+/*--------------------------------------------Get-in-touch MightyMasksMap*/
+
+/*attribution google-maps*/ 
+iframe {
+    height: 19.4em; 
+    align-items: flex-end;
+    display: flex;
+}
+
+/*--------------------------------------------Get-in-touch panel images*/
 
 /*attribution unsplash junho-chak*/
 #shisizang {
@@ -798,6 +986,8 @@ hr {
     background-position: center;
 }
 
+/*--------------------------------------------Get-in-touch swatch hover*/
+
 #swatch {
   color: #999999;
   text-decoration: none;
@@ -812,223 +1002,5 @@ hr {
     -o-transition: all 0.35s ease-in-out;
     }
 
-/*--------------------------------------------Color*/
 
-#call-out {
-    font-family: "Montserrat", sans-serif;
-    font-size: 80%;
-    font-weight: 500;
-    color: #f8f8f8;
-}
-
-#stay-strong {
-    color: #777777;
-    font-size: 100%;
-    font-weight: 400;
-}
-
-/*--------------------------------------------Header*/
-
-header {
-    margin: 0;
-}
-
-.heading {
-    margin-left: 50px;
-}
-
-/*--------------------------------------------Footer*/
-
-form {
-    display: inline;
-    text-align: center;
-}
-
-#call-to-action {
-    font-family: "Montserrat";
-    color: lightcoral;
-    font-size: 90%;
-    font-weight: 500;
-}
-
-.top-footer-aside-1, .top-footer-aside-2, .top-footer-aside-3, .top-footer-aside-4 {
-  height: 5px;
-}
-
-@media all and (min-width: 34em) {
-  .top-footer-aside { flex: 1 0 0; }
-}
-
-@media all and (min-width: 62em) {
-  .main    { flex: 3 0px; }
-  .top-footer-aside-1 { order: 1; } 
-  .top-footer-aside-2 { order: 2; }
-  .main    { order: 3; }
-  .top-footer-aside-3 { order: 4; }
-  .footer-aside-4 { order: 5; }
-  .top-footer  { order: 6; }
-}
-
-.top-footer-aside {
-    height: 20px;
-    color: #777777;
-    align-items: center;
-    list-style-type: none;
-    margin:0;
-    text-transform:none;
-    margin-top: 10px;
-}
-
- .top-footer-aside a {
-     color: #777777;
-     text-decoration: none;
-     font-size: 0.8rem;
-     font-weight: 400;
- } 
-
-.top-footer-aside a:hover {
-     color:lightcoral;
-}
-
-.social-media i:hover {
-     color:lightcoral;
-     transition: all 0.35s ease-in-out;
-     -moz-transition: all 0.35s ease-in-out;
-     -webkit-transition: all 0.35s ease-in-out;
-     -o-transition: all 0.35s ease-in-out;
-}
-
-.social-media li {
-    display: inline;
-    padding:1%;
-}
-
-.social-media i {
-    font-size: 140%;
-    margin: 1%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    color: #777777;
-}
-
-/*--------------------------------------------Btm-Footer Copyright/Logo/Spotify*/
-
-#footerlogo {
-    height: 2em;
-    width: 6em;
-    background: url(../logo/mighty-masks-footer-logo.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.btm-footer-aside-1 {
-  height: 5px;
-  margin-top: 1px;
-}
-
-.btm-footer-aside-2 {
-  height: 5px;
-  margin-top: 1px;
-}
-
-.btm-footer-aside-3 {
-  height: 5px;
-  margin-top: 1px;
-}
-
-@media all and (min-width: 34em) {
-  .btm-footer-aside { flex: 1 0 0; }
-}
-
-@media all and (min-width: 62em) {
-  .main    { flex: 3 0px; }
-  .btm-footer-aside-1 { order: 1; } 
-  .btm-footer-aside-2 { order: 2; }
-  .btm-footer-aside-3 { order: 4; }
-  .btm-footer  { order: 6; }
-}
-
-.btm-footer-aside {
-     margin-top: 5em;
-     color: #999999;
-     text-decoration: none;
-     font-size: 0.8rem;
-     font-weight: 400;
-     list-style-type: none;
-}
-
- .btm-footer-aside a {
-     text-decoration: none;
-     font-size: 0.8rem;
-     font-weight: 400;
-     list-style-type: none;
- }
-
-a {
-    color: #999999;
-}
-
-a:hover {
-    color: #999999;
-}
-
-/*attribution shopify*/
-#shopify {
-    height: 0.9em;
-    width: 14em;
-    background: url(../logo/shopify.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*--------------------------------------------MightyMasksMap*/
-
-/*attribution google-maps*/ 
-iframe {
-    height: 19.4em; 
-    align-items: flex-end;
-    display: flex;
-}
-
-/*--------------------------------------------ContactForm*/
-
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid rgba(103, 128, 159, .2);
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 3px; 
-  margin-bottom: 8px; 
-  resize: vertical 
-}
-
-input[type=submit] {
-  background-color: #777777;
-  color: white;
-  padding: 6px 10px;
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: lightcoral;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-}
 
