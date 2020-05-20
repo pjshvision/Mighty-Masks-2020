@@ -134,6 +134,8 @@ hr {
     position: relative;
 }
 
+ hr { border: 3px solid whitesmoke; width: 25%;}
+
 /*--------------------------------------------Hero-Image*/
 
 /*attribution shutterstock*/
@@ -148,8 +150,6 @@ hr {
 
     background-position: center;
 }
-
- hr { border: 3px solid whitesmoke; width: 25%;}
 
 /*--------------------------------------------Demo-Flex-Box attribution css-tricks.com [(https://codepen.io/team/css-tricks/pen/EKEYob)]*/
 
@@ -1022,5 +1022,16 @@ iframe {
     -o-transition: all 0.35s ease-in-out;
     }
 
+/*Product pg--------------------------------------------Ran out of time! - future addition*/
 
+#hero-image-product {
+    height: 25em;
+    width: 100%;
+    background: url(../images/shutterstock/Welcome%20In%20-%20Sign%20Up%20to%20our%20Newsletter.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    background-position: center;
+}
