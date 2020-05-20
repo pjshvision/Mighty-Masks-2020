@@ -93,9 +93,22 @@ I've found Our-Mission to be a glitchy page. The image files are small after x 3
 If you have any feedback for me as an author I am reachable at peter.og.shearman@gmail.com
 
 ## Deployment ##
-Mighty Masks is deployed on GitHub Pages.
+I've deployed Mighty Masks on GitHub Pages [(https://pjshvision.github.io/Mighty-Masks-2020/our-values.html)]
+I found it slightly challenging given it was my first time deploying. 
 
-There are no differences between the deployed version and the development version.
+To deploy I went to Settings in my repository. I selected the Master Branch.
+
+There are two noticeable differences between the deployed version and the development version. 
+
+The first is that it lands on the product page rather than the index.html page. 
+This is an unexpected result as GitPod always opens on index.html
+
+The second is that my logo is conspicuously missing. The documentation in my gitpod messages shows that the logo was the hardest challenge for me to solve. It is disappointing that it fails to show after the hard work was done finding an attractive solution.
+I suspect it may be due to the img src link but will need to follow up on this.
+
+I checked the deployed version on my mobile phone and it looks good bar the above two issues.
+
+I was unaware prior to deployment that it could look any different from GitPod. This is a valuable lesson I will take onboard.
 
 ## Credits ##
 #### Content ####

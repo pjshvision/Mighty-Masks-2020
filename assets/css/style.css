@@ -19,6 +19,18 @@
 
 /*--------------------------------------------Aside Wrapper for menu items Code attribution css-tricks.com [(https://css-tricks.com/snippets/css/a-guide-to-flexbox/)]*/
 
+#logo {
+    background: url(../logo/mighty-masks-color-logo.png);
+    height: 15em;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-position: center;
+}
+
 .wrapper {
   display: flex;  
   flex-flow: row wrap;
