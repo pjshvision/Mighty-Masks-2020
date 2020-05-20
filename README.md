@@ -12,9 +12,13 @@ As a buyer or procurement type in the market for fashion or medical masks, I mos
 
 I tried to model Mighty Masks on number of presentation ideas I came across when researching various supplier & online retailer websites. I sought to blend the factual informative style of the average supplier and the impressive presentation style the online retailer.
 
+My intention was to keep the design fresh and aesthetically minimalistic. 
+I played around with and dropped navbars incl burger icon, home pg modal, jumbotron, zoom-in & out effects, timeline bar (both coded & image based) - as I felt these features detracted from user experience rather than improved it.
+
 I've added my research & inspriration as a PDF (../assets/research-inspiration/Mighty%20Masks%20initial%20research.pdf)
 
 Based on my initial research I then created a wireframes mock-up (../assets/wireframes/Mighty%20Masks%202020.pdf). 
+I followed my Wireframes closely for most part. The small number of divergences are based on consideration of spacing and userbility (e.g. Get-In-Touch pg was org 3 features in top row, changed to 2 features in top row w/ 3rd (the map) placed in row below)
 
 ## Features ##
 The project is divided into 5 pages with a number of features.
@@ -22,7 +26,7 @@ The project is divided into 5 pages with a number of features.
 **1. Home Page**
 Allows visitors to quickly evaluate MightyMasks product and reputation. 
 
-Features include a navalert, header navigation links, a Hero Image, product panels that link to product page, customer quotes, a banner, a sign up link and form to subscribe to a newsletter, footer navigation links and social media icons that link to social media presence. 
+Features include a navalert, header navigation links, a Hero Image, product panels that link to product page, customer quotes, a banner, hyperlink hover FAQ, a sign up link and form to subscribe to a newsletter, footer navigation links and social media icons that link to social media presence, and shopify link to website. 
 
 Encourages progression to "Get In Touch" page through modal and hyperlinks.
 
@@ -34,17 +38,19 @@ Gives a background to company and founder behind it.
 
 Features include a border instead of a navalert, timeline on top of standard header and footer features.
 
+Downloadable certification pdf.
+
 **4. Our Values Page**
 This showcases the ethical and responsible side of the business, a cornerstone in any supplier-retailer/govt relationship today. 
 
-Features include panelled squares giving a nice visual impact alongside information.
+Features include a seocnd hero image and panelled squares giving a nice visual impact alongside information.
 
 **5. Get In Touch Page**
 The key page aimed at solidifying a potential new relationship based off initial interest. Want to make it possible to schedule in meetings and follow ups.
 
 All pages link to this page, a central part of my design.
 
-Features include a contact form, contact information, a Google Maps location of the Mighty Masks Head Office, a FAQ section, and a Free Swatch offer.
+Features include a contact form, contact information, a Google Maps location of the Mighty Masks Head Office, a FAQ section, and a Free Swatch offer with hyperlink/hover.
 
 #### Features Left to Implement : ####
 I ran out of time but would have liked to have added a number of additional features. In particular :
@@ -53,6 +59,11 @@ I ran out of time but would have liked to have added a number of additional feat
 [ ] Product page carousel on the product page 
 [ ] Product page options for size, color, box qty selection
 [ ] Product page fabric and reusability fontawesome icons
+
+I would add the following post-JavaScript course :
+[ ] A timed modal that occupies the home pg showing latest order detail info - a common feature on fashion websites
+[ ] A toaster that pops up with send confirmation message
+[ ] A more robust test of acceptable emails - I noticed as long as you added an "@" & "." the form would accept it as valid, too basic
 
 #### Technologies Used : GitHub, GitPod ####
 **Languages** : HTML5, CSS3
@@ -104,6 +115,24 @@ In addition, if it is not obvious, you should also describe how to run your code
 #### Media ####
 The photos used in this site were obtained from Unsplash and Shutterstock. 
 All Unsplash photos are fully accredited to photographer in assets folder and CSS code.
+
+Attribution to Unsplash photographers in alphabetical order :
+- Angelo Abea 
+- Bara Buri
+- Edward Howell
+- Gryffn M
+- Isaac Owens
+- Juan Encalada
+- Junho Chak
+- Macau Photo Agency
+- Marilia Castelli
+- Obi Onyeador
+- Sarah Y
+- Sei Kakinoki
+- Vera Davidova
+- Yiranding
+- Yue Iris
+
 Shutterstock photos did not come with any photographer names I could attribute. 
 
 #### Acknowledgements ####
@@ -141,6 +170,17 @@ I also looked at presentation styles from face mask retailers including :
 - MaskClub [(https://maskclub.com/)]
 
 
+I attribute code taken & modified from :
+- CSS-tricks.com Aside Wrapper [(https://css-tricks.com/snippets/css/a-guide-to-flexbox/)]
+- CSS-tricks.com Flex Container/Item [(https://codepen.io/team/css-tricks/pen/EKEYob)]*/
+- Kristen Spencer Flex Box [(https://codepen.io/kristencodes/pen/BopVyB)]
+- W3Schools Contact Form ([https://www.w3schools.com/howto/howto_css_contact_form.asp])
+- Google-Maps i-frame ([https://developers.google.com/maps/documentation/embed/start])
+- Code Institute coursework including Cool Runnings, WhiskeyDrop, Rosie Odenkirk CV
+
+
+I'd to thank my mentor Jonathan Munz who gave me some excellent tips. 
+Also my friend Goutham Madhava who gave me some pointers on server capabilities and image resizing. 
 
 
 
