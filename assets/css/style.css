@@ -435,16 +435,17 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    position: relative;
     background-position: center;
+    position: relative;
 }
 
 #call-out {
     font-family: "Montserrat", sans-serif;
-    font-size: 80%;
-    font-weight: 500;
+    font-size: 70%;
+    font-weight: 400;
     color: #f8f8f8;
+    width: 100%;
+    height: auto;
 }
 
 /*--------------------------------------------Btm-Pg-Images*/
